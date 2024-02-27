@@ -12,7 +12,7 @@ def find_primenumbers(lower_num, upper_num):
             for i in range(2, num):
                 if num % i == 0:
                     break
-                """ we are making sure that if the number has divisable then exit the loop and num takes other value starts
+                """ we are making sure that if the number has divisable factors then exit the loop and num takes other value starts
                 looking for the divisable factors for that num (primarity)"""
             else:
                 print(f"here all prime numbers can be printed: {num}")
