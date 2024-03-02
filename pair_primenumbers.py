@@ -14,6 +14,7 @@ def display_prime_pairs(lower_num, upper_num):
         j = i + 2
         if check_prime(i) and check_prime(j):
             print(f"prime pair: {i} & {j}")
+            print(f"prime pair: {i} & {j}")
 
 
 display_prime_pairs(lower_num, upper_num)
